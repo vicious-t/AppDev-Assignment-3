@@ -11,6 +11,8 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+.metadata
+devtools_options.yaml
 
 # IntelliJ related
 *.iml
@@ -67,6 +69,9 @@ ios/Flutter/ephemeral/
 .vscode/
 *.iml
 
-# Firebase secrets
+# Firebase secrets 
 android/app/google-services.json
 **/*-firebase-adminsdk-*.json
+
+# Supabase local temp
+supabase/.temp/
